@@ -152,7 +152,7 @@ type Block struct {
 	SeparatorBlockWidth int `json:"separator_block_width,omitempty"`
 
 	// Markup specifies how the block should be parsed.
-	Markup string `json:"markup,omitempty"`
+	Markup Markup `json:"markup,omitempty"`
 }
 
 // StatusLine represents a full i3bar status line.
